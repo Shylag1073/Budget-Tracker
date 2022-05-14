@@ -2,9 +2,10 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-// "mongodb+srv://Shylar:Password@cluster0.8ivwd.mongodb.net/socialmedia?retryWrites=true&w=majority"
 const PORT = process.env.PORT || 3001;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://Shylar:Toby123@cluster0.8ivwd.mongodb.net/socialmedia?retryWrites=true&w=majority";
+
+//mongodb://localhost/budget";
 
 const app = express();
 
